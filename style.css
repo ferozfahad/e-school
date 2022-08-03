@@ -34,20 +34,43 @@ h1{
 }
 /* card */
 
-.card img{
+.main-card img{
     width: 70px;
     height: 70px;
 }
-.card{
+.main-card{
     border: none;
-    padding: 10px;
+    padding: 30px 20px;
     margin: 20px;
     width: 100%;
     height: 200px;
 }
-.card:hover{
+/* .main-card:hover{
     box-shadow: 5px 5px 5px 5px lightgray;
-}
-.card-title{
+} */
+.main-card .card-title{
     font-size: 25px;
+}
+.icon img{
+    width: 20px;
+    height: 20px;
+}
+.icon{
+    margin-top: 5px;
+    padding: 0;
+}
+.man img{
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+}
+/* footer */
+
+.black-footer{
+    background-color: black;
+    color: white;
+}
+.bg{
+    background-color: black;
+    color: white;
 }
